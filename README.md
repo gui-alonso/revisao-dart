@@ -16,4 +16,4 @@ Para cada exemplo, tem uma breve explicação de como funciona. Aqui é apenas o
    Abra o terminal ou prompt de comando no seu computador. Dependendo do sistema operacional que você está usando, isso pode ser o Terminal no macOS e Linux ou o Prompt   de Comando no Windows.
  - Passo 3: Navegue para a pasta onde deseja clonar o repositório:
    Use o comando cd para navegar para a pasta em que deseja armazenar o repositório clonado. Por exemplo, para navegar para a pasta "Documentos", você pode usar:  
-   cd Documentos
+   *cd Documentos*
