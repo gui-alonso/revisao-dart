@@ -29,7 +29,7 @@ Para cada exemplo, tem uma breve explicação de como funciona. Aqui é apenas o
   
    Por exemplo:
    
-   *git clone https://github.com/nome_do_usuario/nome_do_repositorio.git*
+   *git clone https://github.com/nome_do_usuario/nome_do_repositorio.git* (<- aqui é apenas um exemplo, você deverá substituir referente a sua conta e seu repositório do seu github)
    
  - **Passo 5: Acesse a pasta do repositório clonado:**
    Após o término do comando de clonagem, você terá uma nova pasta com o nome do repositório dentro da pasta em que estava trabalhando. Use o comando cd novamente para  entrar na pasta do repositório clonado:
