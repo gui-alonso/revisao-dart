@@ -17,5 +17,5 @@ int divideNumbers(int a, int? b) {
   if (b == 0) {
     throw Exception('Divisão por zero não é permitida.');
   }
-  return a ~/ b;
+  return a ~/ b; // se b não for nulo e não for zero, realizamos a divisão usando o operador ~/ e retornamos o resultado.
 }
