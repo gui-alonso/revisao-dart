@@ -24,6 +24,7 @@ void main() {
   numerosDecimais.addAll([1.1, 2.2, 3.3]);
   frutas.add("Maracujá");
   frutas.add("Maracujá2");
+  frutas.add("Maracujá3");
   print(frutas);
 
   // Removendo elementos da lista.
