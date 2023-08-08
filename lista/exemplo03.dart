@@ -1,4 +1,5 @@
 import 'dart:io';
+
 void main() {
   // Exemplo de uma lista de números inteiros.
   List<int> numeros = [1, 2, 3, 4, 5];
@@ -11,6 +12,7 @@ void main() {
 
   // Acessando elementos da lista usando o índice.
   print('O segundo número da lista é: ${numeros[1]}');
+  print('Fruta: ${frutas[2]}');
 
   // Iterando sobre os elementos da lista usando um loop for-in.
   for (var fruta in frutas) {
@@ -20,6 +22,8 @@ void main() {
   // Adicionando elementos à lista.
   numerosDecimais.add(3.14);
   numerosDecimais.addAll([1.1, 2.2, 3.3]);
+  frutas.add("Maracujá");
+  print(frutas);
 
   // Removendo elementos da lista.
   numeros.remove(3);
