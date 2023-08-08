@@ -23,6 +23,7 @@ void main() {
   numerosDecimais.add(3.14);
   numerosDecimais.addAll([1.1, 2.2, 3.3]);
   frutas.add("Maracujá");
+  frutas.add("Maracujá2");
   print(frutas);
 
   // Removendo elementos da lista.
