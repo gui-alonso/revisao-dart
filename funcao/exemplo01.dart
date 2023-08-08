@@ -1,11 +1,13 @@
 import 'dart:io';
-
-void main(){
-  print("FUNÇÕES \n");
-  soma(2, 3);
+// Função que soma dois números inteiros e retorna o resultado.
+int soma(int a, int b) {
+  return a + b;
 }
 
-soma( int n1, int n2){
-  print(n1 + n2);
-}
+void main() {
+  // Chamando a função e atribuindo o resultado a uma variável.
+  int resultado = soma(5, 3);
 
+  // Imprimindo o resultado.
+  print('A soma de 5 e 3 é: $resultado');
+}

@@ -1,0 +1,13 @@
+Explicação:
+
+Declaramos duas variáveis, a e b. A variável b é declarada como int?, indicando que ela pode conter um valor nulo.
+
+Em seguida, chamamos a função divideNumbers(a, b) para realizar a divisão entre a e b.
+
+Na função divideNumbers, primeiro verificamos se o valor de b é nulo usando a condição if (b == null). Se b for nulo, lançamos uma exceção usando throw com a mensagem de erro "Divisor não pode ser nulo." Isso é importante porque a divisão por zero não é permitida em Dart, e lidar explicitamente com esse caso ajuda a evitar erros inesperados.
+
+Em seguida, verificamos se o valor de b é igual a zero usando if (b == 0). Se b for zero, lançamos uma exceção com a mensagem de erro "Divisão por zero não é permitida."
+
+Finalmente, se b não for nulo e não for zero, realizamos a divisão usando o operador ~/ e retornamos o resultado.
+
+Se a divisão por zero ocorrer, o bloco catch no main será executado, e a mensagem de erro será exibida.
